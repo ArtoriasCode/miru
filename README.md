@@ -1,23 +1,32 @@
 # 🔥 Miru
 With Miru, you can create your own browser-based applications. It allows you to call Python code directly from Vue and vice versa, enabling you to combine convenient reactive Vue layout and business logic processing in Python.
 
-## 📘 Miru features
-- Vue syntaxis.
-- Calling Python code from JavaScript.
-- Calling JavaScript code from Python.
-- Application as a web page.
+The main features you will get when using Miru:
+- ✏️ Vue syntaxis.
+- ➡️ Calling Python code from JavaScript.
+- ⬅️ Calling JavaScript code from Python.
+- 🌐 Application as a web page.
 
 ## 🌐 Supported browsers
+There are currently three browsers available for you to choose from. All you need is for them to be available in the system, and Miru will find the installation path itself.
+
 |          | MacOS  | Windows | Linux  |
 |----------|--------|---------|--------|
 | Chrome   | ✅     | ✅      | ✅     |
 | Chromium | ✅     | ✅      | ✅     |
 | Edge     | ✅     | ✅      | ✅     |
 
-## 📚 Packages used in project
+> [!NOTE]
+> Perhaps there aren't as many as you would like yet, but I will try to add more in the future.
+
+## 📚 Packages
+List of packages used to create Miru:
 - **[Vue](https://github.com/vuejs/core)**: Vue.js is a progressive, incrementally-adoptable JavaScript framework for building UI on the web. 
 - **[Bottle](https://pypi.org/project/bottle/)**: Fast and simple WSGI-framework for small web-applications.
 - **[Bottle websocket](https://pypi.org/project/bottle-websocket/)**: WebSockets for bottle.
+
+> [!NOTE]
+> Miru uses only the minimum set of tools necessary so as not to burden your applications with unnecessary dependencies.
 
 ## 🔨 Installation
 1) Install Miru on your device:
@@ -36,6 +45,9 @@ python -m miru setup --vue-dir frontend
 
 ## 🔍 Usage example
 An example of text reversing using Python.
+
+> [!TIP]
+> This is just a minimal example. You can build full-fledged applications, just as you would build websites on Vue.
 
 Example of modified content in a standard template `frontend/src/components/HelloWorld.vue`:
 ```vue
