@@ -1,0 +1,8 @@
+# Directories
+.idea/
+.venv/
+**/__pycache__
+frontend/
+
+# Other files
+main.py
