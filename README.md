@@ -1,8 +1,8 @@
 # 🔥 Miru
-With Miru, you can create your own browser-based applications. It allows you to call Python code directly from VueJS and vice versa, enabling you to combine convenient reactive VueJS layout and business logic processing in Python.
+With Miru, you can create your own browser-based applications. It allows you to call Python code directly from Vue and vice versa, enabling you to combine convenient reactive Vue layout and business logic processing in Python.
 
 ## 📘 Miru features
-- VueJS syntaxis.
+- Vue syntaxis.
 - Calling Python code from JavaScript.
 - Calling JavaScript code from Python.
 - Application as a web page.
@@ -15,7 +15,7 @@ With Miru, you can create your own browser-based applications. It allows you to 
 | Edge     | ✅     | ✅      | ✅     |
 
 ## 📚 Packages used in project
-- **[VueJS](https://github.com/vuejs/core)**: Vue.js is a progressive, incrementally-adoptable JavaScript framework for building UI on the web. 
+- **[Vue](https://github.com/vuejs/core)**: Vue.js is a progressive, incrementally-adoptable JavaScript framework for building UI on the web. 
 - **[Bottle](https://pypi.org/project/bottle/)**: Fast and simple WSGI-framework for small web-applications.
 - **[Bottle websocket](https://pypi.org/project/bottle-websocket/)**: WebSockets for bottle.
 
