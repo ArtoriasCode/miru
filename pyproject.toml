@@ -13,6 +13,10 @@ authors = [
 license = { text = "Apache-2.0" }
 readme = "README.md"
 keywords = ["miru", "vue", "gui", "app", "python", "eel", "backend", "frontend", "reactive"]
+dependencies = [
+    "bottle",
+    "bottle-websocket"
+]
 
 [tool.setuptools]
 packages = { find = { include = ["miru*"] } }
