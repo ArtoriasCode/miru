@@ -1,0 +1,23 @@
+[build-system]
+requires = ["setuptools", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "miru"
+version = "0.1.0"
+requires-python = ">= 3.6"
+description = "A minimalist library for creating browser-based GUI applications on Python with Vue syntaxis."
+authors = [
+    { name = "ArtoriasCode" }
+]
+license = { text = "Apache-2.0" }
+readme = "README.md"
+keywords = ["miru", "vue", "gui", "app", "python", "eel", "backend", "frontend", "reactive"]
+
+[tool.setuptools]
+packages = { find = { include = ["miru*"] } }
+
+[project.urls]
+Homepage = "https://github.com/ArtoriasCode/miru"
+Repository = "https://github.com/ArtoriasCode/miru"
+Issues = "https://github.com/ArtoriasCode/miru/issues"
