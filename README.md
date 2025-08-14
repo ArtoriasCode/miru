@@ -49,7 +49,6 @@ Example of modified content in a standard template `frontend/src/components/Hell
       />
       <button type="submit">Reverse</button>
     </form>
-
     <p v-if="reversed">Reversed: <strong>{{ reversed }}</strong></p>
   </div>
 </template>
