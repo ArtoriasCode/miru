@@ -17,6 +17,9 @@ keywords = ["miru", "vue", "gui", "app", "python", "eel", "backend", "frontend",
 [tool.setuptools]
 packages = { find = { include = ["miru*"] } }
 
+[tool.setuptools.package-data]
+"*" = ["*.js"]
+
 [project.urls]
 Homepage = "https://github.com/ArtoriasCode/miru"
 Repository = "https://github.com/ArtoriasCode/miru"
