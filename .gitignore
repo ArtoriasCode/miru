@@ -2,7 +2,7 @@
 .idea/
 .venv/
 **/__pycache__
-frontend/
+/frontend/
 
 # Other files
 /main.py
