@@ -1,4 +1,7 @@
 # 🔥 Miru
+> [!IMPORTANT]
+> The repository contains [examples](https://github.com/ArtoriasCode/miru/tree/main/examples) of simple applications.
+
 With Miru, you can create your own browser-based applications. It allows you to call Python code directly from Vue and vice versa, enabling you to combine convenient reactive Vue layout and business logic processing in Python.
 
 The main features you will get when using Miru:
@@ -6,9 +9,6 @@ The main features you will get when using Miru:
 - ➡️ Calling Python code from JavaScript.
 - ⬅️ Calling JavaScript code from Python.
 - 🌐 Application as a web page.
-
-> [!IMPORTANT]
-> The repository contains [examples](https://github.com/ArtoriasCode/miru/tree/main/examples) of simple applications.
 
 ## 🌐 Supported browsers
 > [!NOTE]
