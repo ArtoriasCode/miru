@@ -7,6 +7,9 @@ The main features you will get when using Miru:
 - ⬅️ Calling JavaScript code from Python.
 - 🌐 Application as a web page.
 
+> [!IMPORTANT]
+> The repository contains [examples](https://github.com/ArtoriasCode/miru/tree/main/examples) of simple applications.
+
 ## 🌐 Supported browsers
 > [!NOTE]
 > Perhaps there aren't as many as you would like yet, but I will try to add more in the future.
