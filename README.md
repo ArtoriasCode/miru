@@ -5,10 +5,10 @@
 With Miru, you can create your own browser-based applications. It allows you to call Python code directly from Vue and vice versa, enabling you to combine convenient reactive Vue layout and business logic processing in Python.
 
 The main features you will get when using Miru:
-- ✏️ Vue syntaxis.
-- ➡️ Calling Python code from JavaScript.
-- ⬅️ Calling JavaScript code from Python.
-- 🌐 Application as a web page.
+- Vue syntaxis.
+- Calling Python code from JavaScript.
+- Calling JavaScript code from Python.
+- Application as a web page.
 
 ## 🌐 Supported browsers
 > [!NOTE]
