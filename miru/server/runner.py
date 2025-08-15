@@ -22,7 +22,8 @@ def init(
     cmd_args: List = None,
     size: Tuple[int, int] = None,
     position: Tuple[int, int] = None,
-    port: int = None
+    port: int = None,
+    quiet_mode: bool = None,
 ) -> None:
     """
     Initializes the web folder, browser settings and port.
@@ -34,27 +35,34 @@ def init(
     - size: Window size.
     - position: Window position.
     - port: Application port.
+    - quiet_mode: Enable quiet mode.
 
     Returns:
     - None.
     """
-    if web_folder:
+    if web_folder is not None:
         config.user_web_dir = path.abspath(path.join(web_folder, "dist"))
 
-    if mode:
+    if mode is not None:
         config.mode = mode
 
-    if cmd_args:
+    if cmd_args is not None:
         config.cmd_args = cmd_args
 
-    if size:
-        config.size = size
+    if size is not None:
+        config.window_size = size
 
-    if position:
-        config.position = position
+    if position is not None:
+        config.window_position = position
 
-    if port:
+    if port is not None:
         config.port = port
+
+    if quiet_mode is not None:
+        config.quiet_mode = quiet_mode
+
+    if mode is None:
+        mode = config.mode
 
     if mode == BrowsersEnum.CHROME:
         browser = ChromeBrowser()
@@ -99,6 +107,6 @@ def start(app_html: str = None) -> None:
         app,
         host=config.host,
         port=config.port,
-        quiet=True,
+        quiet=config.quiet_mode,
         server=GeventWebSocketServer
     )

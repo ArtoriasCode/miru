@@ -18,3 +18,4 @@ class AppConfig:
     app_web_dir: str
     listened_functions: Dict
     ws_clients: Set
+    quiet_mode: bool

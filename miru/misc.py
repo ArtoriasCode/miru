@@ -20,4 +20,5 @@ app.config["miru_config"]: AppConfig = AppConfig(
     user_web_dir=path.abspath(path.join("frontend", "dist")),
     listened_functions={},
     ws_clients=set(),
+    quiet_mode=True,
 )
